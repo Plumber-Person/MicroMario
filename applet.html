@@ -28,6 +28,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	body{
+	text-align: center;
+	}
 
 </head>
 
@@ -81,9 +84,21 @@
 
     <!-- Level Creator Section -->
     <section id="Level" class="container content-section text-center">
-        <div class="row">
+        <div class="row" align="center">
             <div class="col-lg-8 col-lg-offset-2">
-                
+                <div class="container">
+					<h2>
+						How we create our Levels!
+					</h2>
+					<p>Here is how we create all of the levels for our game.  Having already created small, cropped versions of our images for inclusion in the game, we coded a GUI to help make the process easier.  By clicking with the mouse, and using several keyboard controls, we switch between the different elements and can place them onto the Java matrix (the red dot is where the element will go).  The GUI associates each element with a numeric identifier, and then its position with another numeric identifier (so we can find where the element goes later).  At the end of placing all the elements where we want it to be, we can export all the data on the elements to a matrix on numbers with one key stroke.  
+						Finally, another Java file reads the raw data from the GUI and turn it into code that can be incorporated into the Pebble Watch application.  From here, the main application can be coded!</p>
+				</div>
+				<div class="container">
+					<img src="resources/MarioEditor-Screen-Cap.png"></img>
+				</div>
+				<div class="container">
+					<img src="img/screenshot.png"></img>
+				</div>
             </div>
         </div>
     </section>
