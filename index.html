@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 	<link href="css/agency.css" rel="stylesheet">
+	<link href="css/video-js.css" rel="stylesheet" type="text/css">
+	
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -28,6 +30,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script>
+		videojs.options.flash.swf = "assets/video-js.swf";
+	</script>
+	
+	
 
 </head>
 
@@ -93,7 +100,7 @@
 				<p>"Everything you love about Super Mario Bros, now on the Pebble Watch!"</p>
                 <p>The application we are showing here is a port of Super Mario Bros made to work on the Pebble Watch.</p>
                 <p>Using the e-ink screen from the Watch, and the provided buttons, as a team, we have created a working port of our favourite game.</p>
-                <p>This app was created as part of the <a href="http://2015s.hackbu.org/">2015 HACKBU Hackathon</a> at Binghamton University.</p>
+                <p>This app was created as part of the <a href="http://2015s.hackbu.org/">2015 HackBU Hackathon</a> at Binghamton University.</p>
             </div>
         </div>
 		<div class="row">
@@ -182,6 +189,8 @@
                     <p>You can see our project on github.  Releases can be found in the 'releases' folder.</p>
 					<p>Coming soon to the Pebble Store!</p>
                     <a href="https://github.com/Plumber-Person/MicroMario/tree/gh-pages/releases" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+				<div class="col-lg-8 col-lg-offset-2">
 					<a href="applet.html" class="btn btn-default btn-lg">Create Your Game Level Today!</a>
                 </div>
             </div>
@@ -226,6 +235,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+	
+	<!-- Link HTML5 Video Player JavaScript -->
+	<script src="js/video.js"></script>
 
 </body>
 
